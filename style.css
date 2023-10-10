@@ -18,8 +18,10 @@
 }
 
 .attribution { 
+    font-family: var(--f-family);
     font-size: 11px; 
     text-align: center; 
+    margin-top: 20px;
 }
     
 .attribution a { 
@@ -81,6 +83,35 @@ span {
     border-radius: 30px;
     font-weight: 600;
     font-size: var(--f-size);
-
 }
 
+.illustraton {
+    width: 640px;
+    height: 383px;
+    margin: 94px 0 72px 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fa-brands {
+    border: 1px solid var(--secondary-pale-blue);
+    padding: 8px;
+    border-radius: 50%;
+    margin: 25px 10px;
+}
+
+.fa-facebook-f {
+    padding-left: 11px;
+    padding-right: 10px;
+}
+
+.copy-right {
+    font-size: 12px;
+    font-weight: 300;
+    font-family: var(--f-family);
+    color: var(--neutral-gray)
+}
