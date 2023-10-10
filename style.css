@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap')
-
 :root {
     /* colors */
     --primary-color: hsl(223, 87%, 63%);
@@ -9,7 +7,7 @@
     --neutral-dark-blue: hsl(209, 33%, 12%);
 
     /* font */
-    --f-family: "Libre Franklin", san-serif;
+    --f-family: "Libre Franklin", sans-serif;
     --f-size: 20px;
 }
 
@@ -25,8 +23,8 @@
 }
     
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
-    font-family: "Libre Franklin", san-serif;;
+    color: var(--primary-color); 
+    font-family: var(--f-family)
 }
 
 .container {
@@ -38,7 +36,51 @@
 }
 
 .title {
+    font-family: var(--f-family);
     font-size: 48px;
-    color: hsl(0, 0%, 59%);
+    color:var(--neutral-gray);
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin: 40px 0 16px 0;
+}
+
+span {
+    color: var(--neutral-dark-blue);
+    font-weight: 700;
+}
+
+.subscribe {
+    font-family: var(--f-family);
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: var(--neutral-dark-blue);
+    margin-bottom: 40px;
+}
+
+.user-email {
+    width: 421px;
+    height: 56px;
+    border: 1px solid var(--secondary-pale-blue);
+    border-radius: 30px;
+    padding: 0 20px;
+}
+
+::placeholder {
+    color: var(--secondary-pale-blue);
+    font-weight: 300;
+    font-size: var(--f-size);
+}
+
+.notify {
+    width: 200px;
+    height: 56px;
+    background-color: var(--primary-color);
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: var(--f-size);
+
 }
 
