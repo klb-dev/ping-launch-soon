@@ -115,3 +115,10 @@ span {
     font-family: var(--f-family);
     color: var(--neutral-gray)
 }
+
+#message {
+    font-size: 20px;
+    color:var(--secondary-red);
+    font-weight: 600;
+    margin: 10px 0 0 20px;
+}
