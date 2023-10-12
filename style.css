@@ -85,6 +85,12 @@ span {
     font-size: var(--f-size);
 }
 
+.notify:hover {
+    cursor: pointer;
+    color: var(--primary-color);
+    background-color: #ffffff;
+}
+
 .illustraton {
     width: 640px;
     height: 383px;
